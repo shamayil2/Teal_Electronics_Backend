@@ -1,8 +1,12 @@
 const { initializeDatabase } = require("./db/db.connect")
 const Category = require("./models/category.model")
+const Product = require("./models/product.model")
+const fs = require("fs")
 const cors = require("cors")
 const express = require("express")
 
+const jsonObj = fs.readFileSync("products.json", "utf-8")
+const productsData = JSON.parse(jsonObj)
 
 
 const app = express()
@@ -15,14 +19,65 @@ corsOptions = {
 app.use(cors(corsOptions))
 initializeDatabase()
 
-const categories = [
-    { name: "Smartphones", image: "https://lh5.googleusercontent.com/proxy/g0iMN7EBqsBUcN4vxJx9qcBPLVcwwIU541JaxrVUUsirTkol6OqNUJAYpWL-LnOLpY_7RuFLo5W_FHiIPDBps_iJKANH3IDUlVzN6fInXxKACldouh_afNZuQ3b1FS09CrsKWSUCIUwtZFqqic7HzUTa6Kf4-5_a3Mb_8WL7AESKZsBvZVe0yfw_-cOZzUAivLYAmDU" },
-    { name: "Laptops", image: "https://www.atulhost.com/wp-content/uploads/2024/07/best-laptop-brands.jpg" },
-    { name: "Smartwatches", image: "https://www.smartwatchforless.com/wp-content/uploads/2023/07/always-on-display-blog.jpeg" },
-    { name: "Tablets", image: "https://nypost.com/wp-content/uploads/sites/2/2022/09/tabletfeat.jpg?quality=75&strip=all" },
-    { name: "Headphones", image: "https://www.stuff.tv/wp-content/uploads/sites/2/2022/11/Stuff-Best-Headphones-Lead-Image.png?w=1080" },
-    { name: "Monitors", image: "https://image.benq.com/is/image/benqco/monitor-all-series-kv-3-m?$ResponsivePreset$&fmt=png-alpha" }
-]
+const addProducts = async(productsData) => {
+    try {
+        for (const product of productsData) {
+            const newProduct = new Product(product)
+            const addedProduct = await newProduct.save()
+            console.log(addedProduct)
+        }
+    } catch (error) {
+        console.log("Cannot add products", error)
+    }
+}
+
+const getProducts = async() => {
+    try {
+        const products = await Product.find()
+        return products
+    } catch (error) {
+        console.log("Cannot get Products", error)
+    }
+}
+
+
+
+app.get("/products", async(req, res) => {
+    try {
+
+        const products = await getProducts()
+        if (products.length !== 0) {
+            res.json(products)
+        } else {
+            res.status(404).json({ error: "Products Not Found" })
+        }
+
+    } catch (error) {
+        res.status(500).json({ error: "Cannot get Products" })
+    }
+})
+
+const getProductsByCategory = async(categoryId) => {
+    try {
+        const products = await Product.find({ category: categoryId }).populate("category")
+        return products
+    } catch (error) {
+        console.log("Cannot Get Products from Category", error)
+    }
+}
+
+app.get("/products/category/:categoryId", async(req, res) => {
+    try {
+        const products = await getProductsByCategory(req.params.categoryId)
+        if (products.length !== 0) {
+            res.json(products)
+        } else {
+            res.status(404).json({ error: "Products Not Found" })
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Cannot get Products By Category" })
+    }
+})
 
 const addCategories = async(categories) => {
 
@@ -51,6 +106,15 @@ const getCategories = async() => {
     }
 }
 
+const getCategoryById = async(categoryId) => {
+    try {
+        const category = await Category.findById(categoryId)
+        return category
+    } catch (error) {
+        console.log("Cannot get category", error)
+    }
+}
+
 app.get("/categories", async(req, res) => {
 
     try {
@@ -67,6 +131,8 @@ app.get("/categories", async(req, res) => {
     }
 
 })
+
+
 
 const PORT = 3000
 

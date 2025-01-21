@@ -1,0 +1,173 @@
+[{
+
+        "category": "678ebc61d4fc609ec5d9d5e5",
+        "title": "JBL J20 Headphones",
+        "rating": 4.2,
+        "price": 1500,
+        "originalPrice": 1800,
+        "description": ["Extra Bass for more advanced sound", "Light Weight and Sleek Design", "Dolby Atmos Sound", "Available in beautiful colors."],
+        "productImage": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MUW43?wid=532&hei=582&fmt=png-alpha&.v=1712255584961"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e5",
+        "title": "Beats A100",
+        "rating": 4.9,
+        "price": 2000,
+        "originalPrice": 3000,
+        "description": ["Super clear and smooth sound with focus on lows.", "Easy to Pair and Carry", "Upto 48hours of battery usage ", "Available in many colors"],
+        "productImage": "https://www.beatsbydre.com/content/dam/beats/web/product/headphones/studiopro-wireless/pdp/product-carousel/moon/moon-01.jpg.thumb.319.319.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e3",
+        "title": "Apple Ipad Pro",
+        "rating": 3.4,
+        "price": 2700,
+        "originalPrice": 3000,
+        "description": ["Super Responsive and clear Retina Display", "Comes with Apple Pencil", "Very Useful for Editing and Design Purposes", "Thin and Metallic Body"],
+        "productImage": "https://www.aptronixindia.com/media/catalog/product/cache/31f0162e6f7d821d2237f39577122a8a/i/p/ipad_pro_20.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e3",
+        "title": "Samsung Galaxy Tab Pro",
+        "rating": 4.4,
+        "price": 700,
+        "originalPrice": 1000,
+        "description": ["Amoled Full HD Display", "Comes with latest Android", "Very Useful for Entertainment and Study Purposes", "Full Metallic Body Design"],
+        "productImage": "https://media.croma.com/image/upload/v1684942848/Croma%20Assets/Computers%20Peripherals/678ebc61d4fc609ec5d9d5e3%20and%20iPads/Images/269087_9_hgfwjg.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e3",
+        "title": "Oppo Tablet X23",
+        "rating": 2.4,
+        "price": 500,
+        "originalPrice": 600,
+        "description": ["Clean and colorful User Interface with many inbuilt features", "Big and Colorful Display", "Perfect for Games and Movies", "Plastic Body"],
+        "productImage": "https://opsg-img-cdn-gl.heytapimg.com/epb/202207/17/Dh43FsClsgXYqc7G.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e1",
+        "title": "Apple Watch Ultra 2",
+        "rating": 4.8,
+        "price": 1800,
+        "originalPrice": 2000,
+        "description": ["Dust and Water Resistant", "Comes with advanced features like Activity and Heart Rate Sensor", "Very Strong Built with military grade toughness", "Large and Retina Display"],
+        "productImage": "https://store.storeimages.cdn-apple.com/1/as-images.apple.com/is/MXKF3ref_VW_34FR+watch-case-49-titanium-black-ultra2_VW_34FR+watch-face-49-milanese-ultra2_VW_34FR_GEO_IN?wid=752&hei=720&bgc=fafafa&trim=1&fmt=p-jpg&qlt=80&.v=YzIydmRRS2pDN0FSOWdJYkhNbERrbmpDV2hhem5qNnpDenFtKzI1OXdzWjRaeVR4RW9XWXhWVHRHeXZEa3AwcGZsNDErT2hQbWVmS0VCWlVweVY1UHJPZDFtOFdYdEpGc2pnVWxteWY3dWcxYjU0WFQ4WXdVdGhrWTJkV200SUlYakZvQ3BTZ0ltc1h3VVJLV0VSeXNyWlBtR0ZPUkFPYlc1NC9nRzhiVTZUYlg5SUJPR0VaZnV5YVlTck5WQzFJWitOTEs5T0laM0FBYmtOdWx0aUJtTkEyNXhoZmcyZUp2Tk9aVXZYTDErZw"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e1",
+        "title": "Pixel Watch 3",
+        "rating": 3.9,
+        "price": 2200,
+        "originalPrice": 2300,
+        "description": ["Minimal and Round Design", "Most Accurate Heart Rate sensor", "Dust and Water Resistant", "With very colorful bands"],
+        "productImage": "https://rukminim3.flixcart.com/image/850/1000/xif0q/smartwatch/w/g/r/-original-imagxp8utj55gjnk.jpeg?q=20&crop=false"
+    }, {
+
+        "category": "678ebc61d4fc609ec5d9d5e1",
+        "title": "Samsung Galaxy Watch",
+        "rating": 4.5,
+        "price": 1700,
+        "originalPrice": 2500,
+        "description": ["Advanced AI Galaxy Features for Fitness Tracking", "Comes with highly accurate sensors", "Stylish and Sleek Design", "Classy Leather Straps and Big clear display."],
+        "productImage": "https://m.media-amazon.com/images/I/71162EQnpKL._AC_UF1000,1000_QL80_.jpg"
+    }, {
+        "category": "678ebc61d4fc609ec5d9d5e7",
+        "title": "Samsung 4K Monitor",
+        "rating": 3.9,
+        "price": 3000,
+        "originalPrice": 4000,
+        "description": ["Highly Accurate 4K Display with vibrant colors", "Thin Bezels with shiny metal display", "High Refresh Rate with 120hz smooth display", "Built in full hd Dolby Atmos Sound"],
+        "productImage": "https://images.samsung.com/is/image/samsung/p6pim/in/ls27d700eawxxl/gallery/in-viewfinity-s7-27s700d27s702d27s704d-27s706d32s700d32s702d32s704d32s706d-ls27d700eawxxl-541956804?$684_547_PNG$"
+    },
+    {
+        "category": "678ebc61d4fc609ec5d9d5e7",
+        "title": "LG N999 Monitor",
+        "rating": 2.9,
+        "price": 2000,
+        "originalPrice": 3000,
+        "description": ["Full HD Display with bright colors", "Thin and Beautiful metal bezels", "High Refresh Rate with 165hz", "Built in full HD Sound Speakers"],
+        "productImage": "https://www.lg.com/content/dam/channel/wcms/in/images/business/24mp88hv-s_atr_eail_in_b/gallery/24MP88HV-S-DZ-03.jpg"
+    }, {
+        "category": "678ebc61d4fc609ec5d9d5e7",
+        "title": "Dell D3 Monitor",
+        "rating": 3.5,
+        "price": 3500,
+        "originalPrice": 4000,
+        "description": ["Perfect for Gaming and Entertainment Purposes", "120hz Refresh Rate with extra smooth colorful display", "Support for HDMI, Type C and all other major cabel types.", "Built in Features like color adjustment etc."],
+        "productImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2425h/mg/monitor-p2425h-black-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=4459&hei=3927&qlt=100,1&resMode=sharp2&size=4459,3927&chrss=full&imwidth=5000"
+    }, {
+
+        "category": "678ebc5dd4fc609ec5d9d5dc",
+        "title": "Samsung Galaxy S24 Ultra",
+        "rating": 4.5,
+        "price": 2000,
+        "originalPrice": 3000,
+        "description": ["Packed with 50MP Camera", "Super Amoled 4K Display", "Sleek Body Design", "16GB Ram"],
+        "productImage": "https://images.samsung.com/is/image/samsung/p6pim/in/2401/gallery/in-galaxy-s24-s928-sm-s928bztqins-thumb-539573348"
+    },
+    {
+
+        "category": "678ebc5dd4fc609ec5d9d5dc",
+        "title": "Apple iPhone 16 Pro",
+        "rating": 4.3,
+        "price": 1500,
+        "originalPrice": 2000,
+        "description": ["Super Retina Display", "HDR Camera with 4K Shooting", "Full Metal Body Design", "12GB Ram"],
+        "productImage": "https://m.media-amazon.com/images/I/61JvFLHZ6NL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+
+        "category": "678ebc5dd4fc609ec5d9d5dc",
+        "title": "Oppo X113 Pro",
+        "rating": 3.8,
+        "price": 1700,
+        "originalPrice": 2300,
+        "description": ["High Resolution Crisp Display", "Low Light Camera with Ultra HD Photos", "Leather Body Design", "Snapdragon 8X Chipset"],
+        "productImage": "https://opsg-img-cdn-gl.heytapimg.com/epb/202407/25/XR1jPDUegtdkCOl5.png"
+    }, {
+
+        "category": "678ebc61d4fc609ec5d9d5df",
+        "title": "Dell Inspiron X15",
+        "rating": 4.4,
+        "price": 3000,
+        "originalPrice": 4000,
+        "description": ["Pre Installed Windows 11 Pro", "Super Responsive Touch Display", "Sleek Design with Thin Bezels", "32GB Ram with NVIDIA RTX 4010"],
+        "productImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/inspiron-notebooks/14-2-in-1-7440-intel/media-gallery/notebook-inspiron-14-7440-t-ice-blue-gallery-10.psd?fmt=pjpg&pscan=auto&scl=1&wid=3924&hei=2565&qlt=100,1&resMode=sharp2&size=3924,2565&chrss=full&imwidth=5000"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5df",
+        "title": "Apple Macbook M2",
+        "rating": 4.8,
+        "price": 4000,
+        "originalPrice": 5000,
+        "description": ["Latest Super Fast M2 Chip", "4K 60fps Retina Display", "Full Metal Body with thin bezels", "Intel Core i9 with 16GB Ram"],
+        "productImage": "https://media.croma.com/image/upload/v1685965791/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256597_iuh8qm.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5df",
+        "title": "HP Slate T3",
+        "rating": 3.7,
+        "price": 1000,
+        "originalPrice": 1500,
+        "description": ["Pre Installed Windows 11 Home", "Super HD 1080p Touch Display", "Metal Design with HD Camera", "12GB Ram with Intel Core i7 and RTX 4010"],
+        "productImage": "https://rukminim2.flixcart.com/image/850/1000/xif0q/computer/1/k/b/pavilion-thin-and-light-laptop-hp-original-imagptxhgjbgrvtw.jpeg?q=90&crop=false"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e5",
+        "title": "Apple Airpods Pro",
+        "rating": 4.6,
+        "price": 800,
+        "originalPrice": 1000,
+        "description": ["Crystal Clear Surround Sound ", "Easy Connectivity", "Long Battery Life with upto 26hrs playback.", "Fast Charging with 100W charger"],
+        "productImage": "https://inventstore.in/staging/wp-content/uploads/2023/05/airpods-pro-2nd-gen.webp"
+    }
+]

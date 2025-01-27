@@ -33,7 +33,7 @@ const addProducts = async(productsData) => {
 
 const getProducts = async() => {
     try {
-        const products = await Product.find()
+        const products = await Product.find().populate("category")
         return products
     } catch (error) {
         console.log("Cannot get Products", error)
@@ -76,6 +76,32 @@ app.get("/products/category/:categoryId", async(req, res) => {
         }
     } catch (error) {
         res.status(500).json({ error: "Cannot get Products By Category" })
+    }
+})
+
+
+const getProductById = async(productId) => {
+
+    try {
+        const product = await Product.findById(productId)
+        return product
+    } catch (error) {
+        console.log(error)
+    }
+
+
+}
+
+app.get("/products/productdetails/:productId", async(req, res) => {
+    try {
+        const product = await getProductById(req.params.productId)
+        if (!product) {
+            res.status(404).json({ error: "Cannot Find Product" })
+        } else {
+            res.json(product)
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Cannot Get The Products" })
     }
 })
 

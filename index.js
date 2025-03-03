@@ -1,6 +1,7 @@
 const { initializeDatabase } = require("./db/db.connect")
 const Category = require("./models/category.model")
 const Product = require("./models/product.model")
+const Order = require("./models/order.model.js")
 const fs = require("fs")
 const cors = require("cors")
 const express = require("express")
@@ -40,6 +41,26 @@ const getProducts = async() => {
     }
 }
 
+
+app.post("/products/orderedproducts", async(req, res) => {
+
+    try {
+
+        const data = req.body
+        const product = new Order(data)
+        const savedProduct = await product.save()
+        if (savedProduct) {
+            res.status(201).json({ message: "Product Saved Successfully", product: savedProduct })
+        }
+
+
+    } catch (error) {
+        res.status(500).json({ message: "Product Cannot be Saved" })
+
+    }
+
+
+})
 
 
 app.get("/products", async(req, res) => {

@@ -62,6 +62,49 @@ app.post("/products/orderedproducts", async(req, res) => {
 
 })
 
+const getOrderedProducts = async() => {
+
+    try {
+
+        const orderedProducts = await Order.find().populate("product")
+        for (let order of orderedProducts) {
+
+
+            for (let product of order.product) {
+                console.log(product.title)
+            }
+
+        }
+        console.log(orderedProducts)
+
+    } catch (error) {
+        console.log("Cannot find ordered Products", error)
+    }
+
+
+}
+
+//Under Review Below Code - Wednesday 5March
+// app.get("/products/orderedproducts", async(req, res) => {
+
+//     try {
+
+//         const orderedProducts = await getOrderedProducts.populate("product")
+//         if (orderedProducts) {
+//             res.status(200).json({ message: "Ordered Products Below", orders: orderedProducts })
+//         } else {
+//             res.status(404).json({ message: "Products Not Found" })
+//         }
+
+//     } catch (error) {
+//         res.status(500).json({ message: "Faled to get orders" })
+
+//     }
+
+
+
+// })
+
 
 app.get("/products", async(req, res) => {
     try {
@@ -179,7 +222,7 @@ app.get("/categories", async(req, res) => {
 
 })
 
-
+getOrderedProducts()
 
 const PORT = 3000
 

@@ -1,19 +1,12 @@
 const mongoose = require("mongoose")
 
 const orderSchema = new mongoose.Schema({
-    title: {
-        type: String,
-        required: true
-    },
-    price: {
-        type: Number,
-        required: true
-    },
-    quantity: {
-        type: Number,
-        required: true
+    product: [{
+        type: mongoose.Schema.Types.ObjectId,
+        ref: "Product"
 
-    },
+    }],
+
     address: {
         type: String,
         required: true

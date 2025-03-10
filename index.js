@@ -67,15 +67,21 @@ const getOrderedProducts = async() => {
     try {
 
         const orderedProducts = await Order.find().populate("product")
+        const orderedProductsArrFinal = []
         for (let order of orderedProducts) {
-
-
+            const orderedProductsTitles = []
             for (let product of order.product) {
-                console.log(product.title)
+
+                orderedProductsTitles.push(product.title)
+
             }
 
+            orderedProductsArrFinal.push({ titles: orderedProductsTitles, address: order.address })
+
+
         }
-        console.log(orderedProducts)
+        return orderedProductsArrFinal
+
 
     } catch (error) {
         console.log("Cannot find ordered Products", error)
@@ -84,26 +90,18 @@ const getOrderedProducts = async() => {
 
 }
 
-//Under Review Below Code - Wednesday 5March
-// app.get("/products/orderedproducts", async(req, res) => {
-
-//     try {
-
-//         const orderedProducts = await getOrderedProducts.populate("product")
-//         if (orderedProducts) {
-//             res.status(200).json({ message: "Ordered Products Below", orders: orderedProducts })
-//         } else {
-//             res.status(404).json({ message: "Products Not Found" })
-//         }
-
-//     } catch (error) {
-//         res.status(500).json({ message: "Faled to get orders" })
-
-//     }
-
-
-
-// })
+app.get("/orderedProducts", async(req, res) => {
+    try {
+        const orderedProducts = await getOrderedProducts()
+        if (orderedProducts.length !== 0) {
+            res.json(orderedProducts)
+        } else {
+            res.status(404).json({ error: "Products Not exist" })
+        }
+    } catch (error) {
+        res.status(500).json({ error: "Cannot get Ordered Products" })
+    }
+})
 
 
 app.get("/products", async(req, res) => {
@@ -222,7 +220,7 @@ app.get("/categories", async(req, res) => {
 
 })
 
-getOrderedProducts()
+// getOrderedProducts()
 
 const PORT = 3000
 

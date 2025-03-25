@@ -66,21 +66,9 @@ const getOrderedProducts = async() => {
 
     try {
 
-        const orderedProducts = await Order.find().populate("product")
-        const orderedProductsArrFinal = []
-        for (let order of orderedProducts) {
-            const orderedProductsTitles = []
-            for (let product of order.product) {
+        const orderedProducts = await Order.find().populate("products.item")
+        return orderedProducts
 
-                orderedProductsTitles.push(product.title)
-
-            }
-
-            orderedProductsArrFinal.push({ titles: orderedProductsTitles, address: order.address })
-
-
-        }
-        return orderedProductsArrFinal
 
 
     } catch (error) {
@@ -220,7 +208,7 @@ app.get("/categories", async(req, res) => {
 
 })
 
-// getOrderedProducts()
+getOrderedProducts()
 
 const PORT = 3000
 

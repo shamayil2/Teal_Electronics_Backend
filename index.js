@@ -6,8 +6,8 @@ const fs = require("fs")
 const cors = require("cors")
 const express = require("express")
 
-const jsonObj = fs.readFileSync("./products.json", "utf-8")
-const productsData = JSON.parse(jsonObj)
+// const jsonObj = fs.readFileSync("./products.json", "utf-8")
+// const productsData = JSON.parse(jsonObj)
 
 
 const app = express()

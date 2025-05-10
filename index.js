@@ -13,7 +13,7 @@ const express = require("express")
 const app = express()
 app.use(express.json())
 corsOptions = {
-    origin: "*",
+    origin: ["http://localhost:5173", "https://teal-frontend-woad.vercel.app/"],
     credentials: true
 }
 

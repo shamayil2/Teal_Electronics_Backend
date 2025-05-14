@@ -20,6 +20,26 @@
     },
     {
 
+        "category": "678ebc61d4fc609ec5d9d5e5",
+        "title": "Sony M956",
+        "rating": 2.9,
+        "price": 5000,
+        "originalPrice": 7000,
+        "description": ["Super clear and smooth sound with focus on lows.", "Easy to Pair and Carry", "Upto 48hours of battery usage ", "Available in many colors"],
+        "productImage": "https://www.sony.co.in/image/5d02da5df552836db894cead8a68f5f3?fmt=pjpeg&wid=330&bgcolor=FFFFFF&bgc=FFFFFF"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e5",
+        "title": "Boat BK00",
+        "rating": 3.5,
+        "price": 2800,
+        "originalPrice": 4500,
+        "description": ["Super clear and smooth sound with focus on lows.", "Easy to Pair and Carry", "Upto 48hours of battery usage ", "Available in many colors"],
+        "productImage": "https://siyasai.com/wp-content/uploads/2021/11/IMG_20211105_094905.jpg"
+    },
+    {
+
         "category": "678ebc61d4fc609ec5d9d5e3",
         "title": "Apple Ipad Pro",
         "rating": 3.4,
@@ -50,6 +70,16 @@
     },
     {
 
+        "category": "678ebc61d4fc609ec5d9d5e3",
+        "title": "LG Pad L55",
+        "rating": 3.4,
+        "price": 800,
+        "originalPrice": 900,
+        "description": ["Clean and colorful User Interface with many inbuilt features", "Big and Colorful Display", "Perfect for Games and Movies", "Plastic Body"],
+        "productImage": "https://drop.ndtv.com/TECH/product_database/images/8242015114659AM_635_lg_g_pad_ii_10_1.jpeg?downsize=*:360"
+    },
+    {
+
         "category": "678ebc61d4fc609ec5d9d5e1",
         "title": "Apple Watch Ultra 2",
         "rating": 4.8,
@@ -76,7 +106,18 @@
         "originalPrice": 2500,
         "description": ["Advanced AI Galaxy Features for Fitness Tracking", "Comes with highly accurate sensors", "Stylish and Sleek Design", "Classy Leather Straps and Big clear display."],
         "productImage": "https://m.media-amazon.com/images/I/71162EQnpKL._AC_UF1000,1000_QL80_.jpg"
-    }, {
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5e1",
+        "title": "Boat Xtend Watch",
+        "rating": 4.5,
+        "price": 1700,
+        "originalPrice": 2500,
+        "description": ["Advanced AI Galaxy Features for Fitness Tracking", "Comes with highly accurate sensors", "Stylish and Sleek Design", "Classy Leather Straps and Big clear display."],
+        "productImage": "https://m.media-amazon.com/images/I/61ZuL8CUigL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
         "category": "678ebc61d4fc609ec5d9d5e7",
         "title": "Samsung 4K Monitor",
         "rating": 3.9,
@@ -101,7 +142,17 @@
         "originalPrice": 4000,
         "description": ["Perfect for Gaming and Entertainment Purposes", "120hz Refresh Rate with extra smooth colorful display", "Support for HDMI, Type C and all other major cabel types.", "Built in Features like color adjustment etc."],
         "productImage": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/peripherals/monitors/p-series/p2425h/mg/monitor-p2425h-black-gallery-1.psd?fmt=pjpg&pscan=auto&scl=1&wid=4459&hei=3927&qlt=100,1&resMode=sharp2&size=4459,3927&chrss=full&imwidth=5000"
-    }, {
+    },
+    {
+        "category": "678ebc61d4fc609ec5d9d5e7",
+        "title": "MI M4 Monitor",
+        "rating": 2.5,
+        "price": 5500,
+        "originalPrice": 6400,
+        "description": ["Perfect for Gaming and Entertainment Purposes", "120hz Refresh Rate with extra smooth colorful display", "Support for HDMI, Type C and all other major cabel types.", "Built in Features like color adjustment etc."],
+        "productImage": "https://i0.wp.com/peoplestelecom.qa/wp-content/uploads/2023/10/xiaomi-mi-monitor-a22i-fhd-clear-natural-viewing-experience-price-in-qatar-3.jpg?fit=800%2C800&ssl=1"
+    },
+    {
 
         "category": "678ebc5dd4fc609ec5d9d5dc",
         "title": "Samsung Galaxy S24 Ultra",
@@ -130,7 +181,28 @@
         "originalPrice": 2300,
         "description": ["High Resolution Crisp Display", "Low Light Camera with Ultra HD Photos", "Leather Body Design", "Snapdragon 8X Chipset"],
         "productImage": "https://opsg-img-cdn-gl.heytapimg.com/epb/202407/25/XR1jPDUegtdkCOl5.png"
-    }, {
+    },
+    {
+
+        "category": "678ebc5dd4fc609ec5d9d5dc",
+        "title": "LG L852 Pro",
+        "rating": 2.8,
+        "price": 1700,
+        "originalPrice": 2300,
+        "description": ["High Resolution Crisp Display", "Low Light Camera with Ultra HD Photos", "Leather Body Design", "Snapdragon 8X Chipset"],
+        "productImage": "https://m.media-amazon.com/images/I/61ws4FhmhYL.jpg"
+    },
+    {
+
+        "category": "678ebc5dd4fc609ec5d9d5dc",
+        "title": "Nothing 1 Pro",
+        "rating": 4.8,
+        "price": 2700,
+        "originalPrice": 3300,
+        "description": ["High Resolution Crisp Display", "Low Light Camera with Ultra HD Photos", "Leather Body Design", "Snapdragon 8X Chipset"],
+        "productImage": "https://at.nothing.tech/cdn/shop/files/12Image_1280x1020_5c5a5716-38b3-4aec-a188-adfc72cb4cc4_2160x.png?v=1658151545"
+    },
+    {
 
         "category": "678ebc61d4fc609ec5d9d5df",
         "title": "Dell Inspiron X15",
@@ -149,6 +221,26 @@
         "originalPrice": 5000,
         "description": ["Latest Super Fast M2 Chip", "4K 60fps Retina Display", "Full Metal Body with thin bezels", "Intel Core i9 with 16GB Ram"],
         "productImage": "https://media.croma.com/image/upload/v1685965791/Croma%20Assets/Computers%20Peripherals/Laptop/Images/256597_iuh8qm.png"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5df",
+        "title": "Microsoft Surface Book",
+        "rating": 4.9,
+        "price": 6000,
+        "originalPrice": 7000,
+        "description": ["Latest Super Fast i9 Chip", "4K 60fps IPS Display", "Full Metal Body with thin bezels", "Intel Smart with 16GB Ram"],
+        "productImage": "https://fdn.gsmarena.com/imgroot/news/17/05/new-surface-pro/-728/gsmarena_001.jpg"
+    },
+    {
+
+        "category": "678ebc61d4fc609ec5d9d5df",
+        "title": "Toshiba Satellite C660",
+        "rating": 3.8,
+        "price": 5000,
+        "originalPrice": 6000,
+        "description": ["Latest Super Fast M2 Chip", "4K 60fps Retina Display", "Full Metal Body with thin bezels", "Intel Core i9 with 16GB Ram"],
+        "productImage": "https://rukminim2.flixcart.com/image/850/1000/computer/d/q/z/toshiba-satellite-pro-r50-b-i2101-notebook-original-imaedsjfzbeuycag.jpeg?q=90&crop=false"
     },
     {
 

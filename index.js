@@ -22,6 +22,7 @@ const corsOptions = {
 app.use(cors(corsOptions))
 initializeDatabase()
 
+
 const addProducts = async(productsData) => {
     try {
         for (const product of productsData) {
@@ -34,6 +35,7 @@ const addProducts = async(productsData) => {
     }
 }
 
+
 const getProducts = async() => {
     try {
         const products = await Product.find().populate("category")
@@ -42,6 +44,38 @@ const getProducts = async() => {
         console.log("Cannot get Products", error)
     }
 }
+
+app.delete("/deleteProducts", async(req, res) => {
+
+    try {
+        const deletedProducts = await Product.deleteMany()
+        if (deletedProducts) {
+            res.json({ message: "Products have been deleted" })
+        }
+
+
+    } catch (error) {
+        res.status(500).json({ error: "Cannot delete products." })
+    }
+
+
+})
+
+app.delete("/deleteOrders", async(req, res) => {
+
+    try {
+        const deletedProducts = await Order.deleteMany()
+        if (deletedProducts) {
+            res.json({ message: "Orders have been deleted" })
+        }
+
+
+    } catch (error) {
+        res.status(500).json({ error: "Cannot delete products." })
+    }
+
+
+})
 
 
 app.post("/products/orderedproducts", async(req, res) => {

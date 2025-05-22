@@ -244,7 +244,6 @@ app.get("/categories", async(req, res) => {
 
 })
 
-getOrderedProducts()
 
 const PORT = 3000
 
